@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Navigation = () => {
     return (
-        <>
-            <h1>Ana</h1>
-        </>
+        <div class='d-flex'>
+            <a class='nav-item' href="#">About Me</a>
+            <a class='nav-item' href="#">Portfolio</a>
+            <a class='nav-item' href="#">Contact</a>
+            <a class='nav-item' href="#">Resume</a>
+        </div>
     )
-  
 }
 
 export default Navigation;

@@ -1,6 +1,12 @@
+:root{
+  --navy: #003049;
+  --light-blue: #669bbc;
+  --warm: #e63946;
+}
+
 * {
   box-sizing: border-box;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
 }
 
@@ -8,5 +14,9 @@ body {
   background-color: whitesmoke;
   margin: 0;
   padding: 0;
-
 }
+
+li {
+  list-style: none;
+}
+

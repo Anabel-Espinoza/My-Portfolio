@@ -1,12 +1,13 @@
 import './App.css';
-// import Header from './components/Header';
-import Navigation from './components/Navigation';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Header from './components/Header';
+import AboutMe from './components/AboutMe';
 
 function App() {
   return (
     <div className="">
-      {/* <Header /> */}
-      <Navigation />
+      <Header />
+      <AboutMe />
     </div>
   );
 }
