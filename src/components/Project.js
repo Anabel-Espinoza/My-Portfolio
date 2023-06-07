@@ -1,18 +1,25 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-const Project = () => {
+const Project = (props) => {
+    console.log(props)
     return (
-        <div className="card ">
+        <>
+        {props.projects.map((project) => (
+        <div className="card m-3" width="25rem">
             <div className='card-header text-center'>
-                <h6>Project name</h6>
+                <h5>{project.name}</h5>
             </div>
             <div className='card-body'>
-                <img src="images/ae-logo.png" alt="project-logo" width="100px"/>
-                <p>description description description description</p>
-                <a>Repository</a>
-                <a>Deployed App link</a>
+                <div className='image-area' width="350px" height="350px">
+                    <img src={project.image}  className='project--img m-auto' alt="project-logo" width="350px"/>
+                </div>
+                <p>{project.description}</p>
+                <a href={project.repo} >Link to Repository</a><br/>
+                <a href={project.deployed}>Deployed app link</a>
             </div>
         </div>
+        ))}
+        </>
     )
  
 }

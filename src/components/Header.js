@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import Navigation from './Navigation'
 import AboutMe from './AboutMe'
-import Project from './Project'
 import Contact from './Contact'
 import Portfolio from './Portfolio'
+import Resume from './Resume'
 
 const Header = () => {
     const [currentPage, setCurrentPage] = useState('AboutMe');
@@ -18,6 +18,9 @@ const Header = () => {
       if (currentPage === 'Contact') {
           return <Contact />
       }
+      if (currentPage === 'Resume') {
+        return <Resume />
+    }
     };
   
     const handlePageChange = (page) => setCurrentPage(page);

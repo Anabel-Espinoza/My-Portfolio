@@ -22,7 +22,7 @@ const Navigation = ({ currentPage, handlePageChange }) => {
             </a>
             
             <a 
-                href="#Resume" 
+                href="#Resume" onClick={() => handlePageChange('Resume')}
                 className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'} 
                 >Resume
             </a>
