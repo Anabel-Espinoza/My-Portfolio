@@ -14,11 +14,11 @@ nav > img {
 .nav--title {
     margin-right: auto;
     color: var(--navy);
-    font-family: Dosis, Oregano, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold
 }
 
-.nav-item {
+.nav--list > a {
     margin: 15px
 }
 
@@ -31,7 +31,7 @@ a {
     color: var(--navy)
   }
 
-a:hover {
-    color: var(--warm);
+.nav---list > a:hover {
+    /* color: var(--warm); */
     font-weight: bold
 }

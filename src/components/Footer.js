@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const Footer = () => {
     return (
@@ -8,7 +8,6 @@ const Footer = () => {
             <a className= "footer--link" href="https://www.linkedin.com/in/anabel-espinoza-95b4b5264/" target="_blank"><img src="./images/LI-In-Bug.png" alt="linkedin logo" width='30px'/></a>
         </footer>
     )
-  
 }
 
 export default Footer;
