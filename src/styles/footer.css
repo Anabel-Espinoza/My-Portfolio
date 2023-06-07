@@ -1,0 +1,13 @@
+footer {
+    height: 60px;
+    align-items: center;
+    box-shadow: 3px 0 3px var(--navy);
+    padding: 15px 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer--link {
+    margin: 20px;
+}

@@ -1,3 +1,15 @@
 h4 {
     color: var(--warm)
 }
+
+.about {
+    align-items: center;
+}
+
+.about--picture {
+    max-height: 400px;
+    max-width: 300px;
+    object-fit: cover;
+    margin-right: 0;
+    padding-right: 0;
+}

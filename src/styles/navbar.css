@@ -1,18 +1,21 @@
 nav {
     height: 100px;
+    width: 100%;
     align-items: center;
     box-shadow: 0 3px 3px var(--navy);
     padding: 15px 20px;
 }
 
 nav > img {
-    height: 100px;
+    max-height: 90px;
     margin-right: 10px;
 }
 
 .nav--title {
     margin-right: auto;
-    color: var(--navy)
+    color: var(--navy);
+    font-family: Dosis, Oregano, sans-serif;
+    font-weight: bold
 }
 
 .nav-item {

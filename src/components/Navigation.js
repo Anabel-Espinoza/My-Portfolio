@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 
 const Navigation = () => {
     return (
-        <div class='d-flex'>
-            <a class='nav-item' href="#">About Me</a>
-            <a class='nav-item' href="#">Portfolio</a>
-            <a class='nav-item' href="#">Contact</a>
-            <a class='nav-item' href="#">Resume</a>
+        <div className='d-flex'>
+            <a className='nav-item' href="#">About Me</a>
+            <a className='nav-item' href="#">Portfolio</a>
+            <a className='nav-item' href="#">Contact</a>
+            <a className='nav-item' href="#">Resume</a>
         </div>
     )
 }

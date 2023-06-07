@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Navigation from './Navigation';
 
 const Header = () => {
     return (
-    <nav class='d-flex flex-row'>
+    <nav className='d-flex flex-row'>
         <img src='images\ae-logo.png' alt='logo'/>
-        <h2 class='nav--title'>Anabel Espinoza <small class='text-muted'>Web Developer</small></h2>
+        <h2 className='nav--title'>Anabel Espinoza <small className='text-muted'>Web Developer</small></h2>
         <Navigation />
     </nav>
     )
