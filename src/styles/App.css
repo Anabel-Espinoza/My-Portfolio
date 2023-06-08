@@ -26,16 +26,29 @@ li {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+  color: var(--navy)
+}
+
+a:hover {
+  color: var(--navy)
+}
+
+.warm-color {
+  color: var(--warm)
+}
+
+/* Footer */
+
 .footer {
   height: 60px;
-  box-shadow: 3px 0 3px var(--navy);
+  box-shadow: 1px -3px 3px 0px var(--navy);
   margin-top: auto;
+  background-color: white;
 }
 
-.footer--link {
-  margin: 20px;
-}
-
+/* NavBar */
 nav {
   height: 100px;
   width: 100%;
@@ -70,23 +83,12 @@ a.nav-link:hover {
   font-size: 16px;
 }
 
-a {
-  text-decoration: none;
-  color: var(--navy)
-}
-
-a:hover {
-  color: var(--navy)
-}
-
 .nav---list > a:hover {
   color: var(--warm);
   font-weight: bold
 }
 
-.warm-color {
-  color: var(--warm)
-}
+/* About Me */
 
 .about {
   align-items: center;
@@ -99,6 +101,8 @@ a:hover {
   margin-right: 0;
   padding-right: 0;
 }
+
+/* Projects */
 
 .card {
   width: 25rem
@@ -125,6 +129,8 @@ a:hover {
 .light-blue {
   color: var(--light-blue);
 }
+
+/* Contact  */
 
 input textarea {
   display: block;

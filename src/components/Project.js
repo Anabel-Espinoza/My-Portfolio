@@ -15,8 +15,8 @@ const Project = (props) => {
                             <h5 className='warm-color'>{project.name}</h5>
                         </div>
                         <p><small>{project.description}</small></p>
-                        <a href={project.repo} className='link-dark' target="_blank">Link to Repository  <span class="light-blue material-symbols-outlined">link</span></a><br/>
-                        <a href={project.deployed} className='link-dark' target="_blank">Deployed app link <span class="light-blue material-symbols-outlined">arrow_right</span></a>
+                        <small><a href={project.repo} className='light-blue' target="_blank">GitHub</a></small><br/>
+                        <small><a href={project.deployed} className='light-blue' target="_blank">Deployed link</a></small>
                     </div>
                 </div>
             </div>
