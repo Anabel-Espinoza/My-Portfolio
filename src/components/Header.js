@@ -29,7 +29,7 @@ const Header = () => {
     <>
         <nav className='d-flex flex-row'>
             <img src='images\ae-logo.png' alt='logo'/>
-            <h2 className='nav--title'>Anabel Espinoza <small className='text-muted'>Web Developer</small></h2>
+            <h2 className='nav--title'>Anabel Espinoza <small className='light-blue'>Web Developer</small></h2>
             <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
         </nav>
             {renderPage()}    

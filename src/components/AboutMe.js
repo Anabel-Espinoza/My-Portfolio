@@ -13,7 +13,7 @@ const AboutMe = () => {
                 <br /><strong >I love challenges, learning new technologies, and problem solving.</strong>
             </p>
             <p>
-                Email me at: <strong><a className="link-secondary" href="mailto: anabel.espinoza@gmail.com">anabel.espinoza@gmail.com</a></strong>
+                Email me at: <strong><a className="light-blue" href="mailto: anabel.espinoza@gmail.com">anabel.espinoza@gmail.com</a></strong>
             </p>
         </div>
     </div>

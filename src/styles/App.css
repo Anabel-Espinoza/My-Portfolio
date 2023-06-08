@@ -4,10 +4,6 @@
   --warm: #e63946;
 }
 
-html {
-  height: 100%;
-}
-
 * {
   box-sizing: border-box;
   font-family: 'Lucida Sans Unicode', 'Lucida Grande',
@@ -15,12 +11,15 @@ html {
 }
 
 body {
-  background-color: whitesmoke;
   margin: 0;
   padding: 0;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-image: url(../../public/images/color-spot.png);
+  background-repeat: no-repeat;
+  background-position: right 75%;
+  background-size: 30%;
 }
 
 li {
@@ -68,12 +67,16 @@ a.nav-link:hover {
 }
 
 .nav--title > small {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 a {
   text-decoration: none;
-  color: var(--navy);
+  color: var(--navy)
+}
+
+a:hover {
+  color: var(--navy)
 }
 
 .nav---list > a:hover {
@@ -103,7 +106,7 @@ a {
 
 .image-area {
   background-color: var(--navy);
-  width: 25rem;
+  width: fit-content;
   height: 300px;
   display: flex;
   align-items: center;
@@ -111,11 +114,36 @@ a {
 
 .project--img {
   max-height: 300px;
-  width: 25rem;
+  width: 100%;
 }
 
-.contact--form {
-  width: 500px;
-  height: 500px;
-  margin: auto;
+.link-dark {
+  color:var(--navy);
+  text-decoration: none;
+}
+
+.light-blue {
+  color: var(--light-blue);
+}
+
+input textarea {
+  display: block;
+  width: 100%;
+}
+
+button {
+  background-color: var(--light-blue);
+  color: var(--navy);
+  border: none;
+  font-weight: bold;
+  border-radius: 5px
+}
+
+button:hover {
+  color: white;
+  transform: scale(1.05);
+}
+
+.contact--area {
+  background-color: white;
 }

@@ -5,9 +5,9 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="d-flex flex-column wrapper">
+    <div className="d-flex flex-column">
       <Header />
-      <Footer />
+      <Footer className="my-auto"/>
     </div>
   );
 }
