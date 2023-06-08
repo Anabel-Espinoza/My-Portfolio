@@ -1,14 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import './styles/navbar.css'
-import './styles/about.css'
-import './styles/footer.css'
-import './styles/projects.css'
+import './styles/App.css';
 
 ReactDOM.render(
-  // <React.StrictMode>
+  <React.StrictMode>
     <App />,
-  // </React.StrictMode>,
+  </React.StrictMode>,
   document.getElementById('root')
 );

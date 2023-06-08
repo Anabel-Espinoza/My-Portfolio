@@ -54,7 +54,7 @@ const myProjects = [
 
 const Portfolio = () => {
     return (
-        <div className="row row-cols-1 row-cols-md-2 g-4 m-5">
+        <div className="">
             < Project projects={myProjects} />
         </div>
     )

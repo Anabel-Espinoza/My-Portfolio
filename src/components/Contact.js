@@ -47,7 +47,7 @@ const Contact = () => {
   };
 
   return (
-    <div>
+    <div className='contact--form d-flex flex-column border align-items-even justify-content-center'>
       <h5>Contact Me</h5>
       <form className="form">
         <label>Name: </label>
