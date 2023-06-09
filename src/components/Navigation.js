@@ -3,7 +3,7 @@ import React from 'react';
 const Navigation = ({ currentPage, handlePageChange }) => {
     return (
         <div className='d-flex nav--list nav nav-tabs'>
-            <li className={currentPage === 'Portfolio' ? 'nav-item is-active' : 'nav-item'}>
+            <li className='nav-item is-active'>
                 <a 
                     href="#AboutMe" onClick={() => handlePageChange('AboutMe')} 
                     className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}

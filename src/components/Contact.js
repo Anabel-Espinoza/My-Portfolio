@@ -44,6 +44,9 @@ const Contact = () => {
     setName('');
     setMessage('');
     setEmail('');
+    setErrorMessage(
+      `Thank you for your message, I'll be in touch soon!`
+    );
   };
 
   return (

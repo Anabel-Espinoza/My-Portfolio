@@ -35,6 +35,10 @@ a:hover {
   color: var(--navy)
 }
 
+.wrapper {
+  height:100vh
+}
+
 .warm-color {
   color: var(--warm)
 }
@@ -46,6 +50,7 @@ a:hover {
   box-shadow: 1px -3px 3px 0px var(--navy);
   margin-top: auto;
   background-color: white;
+  padding: 20px 20px; 
 }
 
 /* NavBar */
@@ -79,6 +84,10 @@ a.nav-link:hover {
   font-weight: bold;
 }
 
+a.nav-link.active {
+	color: var(--warm) !important
+}
+
 .nav--title > small {
   font-size: 16px;
 }
@@ -86,6 +95,27 @@ a.nav-link:hover {
 .nav---list > a:hover {
   color: var(--warm);
   font-weight: bold
+}
+
+/* Hamburger */
+
+.hamburger {
+  position: absolute;
+  right: 1%;
+  top:2%;
+  height: 60px;
+  width: 60px;
+}
+
+button.hamburger-btn {
+  height: 100%;
+  width: 100%;
+  font-size: 35px;
+}
+
+.hamburger-links {
+  background-color: white;
+  padding: 0 50px;
 }
 
 /* About Me */

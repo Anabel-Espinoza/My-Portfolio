@@ -5,7 +5,7 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="d-flex flex-column h-100vh">
+    <div className="wrapper d-flex flex-column">
       <Header />
       <Footer className="my-auto"/>
     </div>
