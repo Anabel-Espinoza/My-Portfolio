@@ -43,8 +43,11 @@ a:hover {
   color: var(--warm)
 }
 
-/* Footer */
+.navy {
+  color: var(--navy)
+}
 
+/* Footer */
 .footer {
   height: 60px;
   box-shadow: 1px -3px 3px 0px var(--navy);
@@ -59,7 +62,7 @@ nav {
   width: 100%;
   align-items: center;
   box-shadow: 0 3px 3px var(--navy);
-  padding: 15px 20px;
+  padding: 15px 15px;
 }
 
 nav > img {
@@ -75,7 +78,7 @@ nav > img {
 }
 
 a.nav-link {
-  margin: 10px;
+  margin: 5px;
   color: var(--navy);
 }
 
@@ -98,24 +101,35 @@ a.nav-link.active {
 }
 
 /* Hamburger */
-
 .hamburger {
-  position: absolute;
-  right: 1%;
-  top:2%;
-  height: 60px;
-  width: 60px;
+  width: 100%;
+  display: flex;
 }
 
 button.hamburger-btn {
-  height: 100%;
-  width: 100%;
+  position: absolute;
+  right: 1%;
+  top: 20px;
+  height: 60px;
+  width: 60px;
   font-size: 35px;
 }
 
-.hamburger-links {
+.hamburger-list {
+  cursor: pointer;
   background-color: white;
   padding: 0 50px;
+  width: 100%;
+  box-shadow: 0 3px 3px var(--navy)
+}
+
+li.hamburger-links {
+  cursor: pointer;
+}
+
+.hamb-link:hover {
+  color: var(--light-blue);
+  font-weight: bold;
 }
 
 /* About Me */
@@ -133,7 +147,6 @@ button.hamburger-btn {
 }
 
 /* Projects */
-
 .card {
   width: 25rem
 }
@@ -161,7 +174,6 @@ button.hamburger-btn {
 }
 
 /* Contact  */
-
 input textarea {
   display: block;
   width: 100%;
@@ -183,3 +195,25 @@ button:hover {
 .contact--area {
   background-color: white;
 }
+
+/* Media Queries Medium Screens*/
+@media screen and (max-width: 992px) {
+  
+.nav--title {
+  font-size: 20px;
+}
+
+}
+
+/* Media Queries Small Screens*/
+@media screen and (max-width: 644px) {
+  
+  .nav--title {
+    font-size: 16px;
+  }
+
+  .nav--title > small{
+    font-size: 14px;
+  }
+  
+  }

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import validateEmail from './utils/helpers'
 
 const Contact = () => {
@@ -40,18 +40,23 @@ const Contact = () => {
       );
       return;
     }
-
-    setName('');
-    setMessage('');
-    setEmail('');
-    setErrorMessage(
-      `Thank you for your message, I'll be in touch soon!`
-    );
+    return true
   };
 
+  const submitForm = (e) => {
+    if (handleFormSubmit(e)) {
+      setName('');
+      setMessage('');
+      setEmail('');
+      setErrorMessage(
+        `Thank you for your message, I'll be in touch soon!`
+      );
+  }
+  }
+
   return (
-    <div className='contact--area w-50 my-5 mx-auto d-flex border'>
-      <div className='contact--form w-100 p-4'>
+    <div className='contact--area w-50 my-4 mx-auto d-flex border'>
+      <div className='contact--form w-100 p-3'>
         <h5 className='my-md-1 p-md-3'><strong>Contact Me!</strong></h5>
         <form className="form m-2 p-3">
           <label className='m-1'>Name: </label><br />
@@ -59,6 +64,7 @@ const Contact = () => {
             value={name}
             name="name"
             onChange={handleInputChange}
+            onBlur={handleFormSubmit}
             type="text"
             className='d-block w-100'
           /><br />
@@ -67,6 +73,7 @@ const Contact = () => {
             value={email}
             name="email"
             onChange={handleInputChange}
+            onBlur={handleFormSubmit}
             type="email"
             className='d-block w-100'
           /><br />
@@ -75,16 +82,17 @@ const Contact = () => {
             value={message}
             name="message"
             onChange={handleInputChange}
+            onBlur={handleFormSubmit}
             type="text"
             rows="5"  
             className='d-block w-100'
           /><br />
           {errorMessage && (
           <div>
-            <p className="error-text">{errorMessage}</p>
+            <p className="error-text warm-color">{errorMessage}</p>
           </div>
         )}
-          <button type="button" onClick={handleFormSubmit} className='my-1 py-2 px-4'>Submit</button>
+          <button type="button" onClick={submitForm} className='my-1 py-2 px-4'>Submit</button>
         </form>
       </div>
     </div>
