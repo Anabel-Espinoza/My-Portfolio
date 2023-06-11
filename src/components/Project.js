@@ -17,7 +17,9 @@ const Project = (props) => {
                         <p><small>{project.description}</small></p>
                         <div className="d-flex justify-content-evenly">   
                             <small><a href={project.repo} className='light-blue' target="_blank"><i class="fa-solid fa-link"></i>GitHub</a></small><br/>
-                            <small><a href={project.deployed} className='light-blue' target="_blank"><i class="fa-solid fa-link"></i>Deployed link</a></small>
+                            {project.deployed && (
+                                <small><a href={project.deployed} className='light-blue' target="_blank"><i class="fa-solid fa-link"></i>Deployed link</a></small>
+                            )}
                         </div>
                     </div>
                 </div>

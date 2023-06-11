@@ -32,7 +32,6 @@ const myProjects = [
         image: 'images/social-media-be.png',
         technologies: 'JS, express, mongoose, MongoDB',
         repo: 'https://github.com/Anabel-Espinoza/Social-Media-BackEnd',
-        deployed: 'N/A'
     }, 
     {
         name: 'My Weather Dashboard',
@@ -48,7 +47,6 @@ const myProjects = [
         image: 'images/employee-tracker.png',
         technologies: 'JS, inquirer, MySQL2, dotenv',
         repo: 'https://github.com/Anabel-Espinoza/Employee_Tracker',
-        deployed: 'N/A'
     }, 
 ]
 
