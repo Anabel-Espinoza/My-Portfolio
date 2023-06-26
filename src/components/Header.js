@@ -32,7 +32,7 @@ const Header = () => {
     return (
     <>
         <nav className='d-flex flex-row'>
-            <img src='My-Portfolio\images\ae-logo.png' alt='logo'/>
+            <img src='\images\ae-logo.png' alt='logo'/>
             <h2 className='nav--title'>Anabel Espinoza <small className='text-nowrap light-blue'>Web Developer</small></h2>
             { isBigScreen 
               ? <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />

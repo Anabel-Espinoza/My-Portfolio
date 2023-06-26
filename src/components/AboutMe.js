@@ -3,7 +3,7 @@ import React from 'react';
 const AboutMe = () => {
     return (
     <div className= 'about d-flex flex-wrap justify-content-center'>
-        <img src='My-Portfolio\images\IMG_8838.jpg' alt='AnaE' className='about--picture p-4 rounded-3 col-lg-5 col-sm-10'/>
+        <img src='images\IMG_8838.jpg' alt='AnaE' className='about--picture p-4 rounded-3 col-lg-5 col-sm-10'/>
         <div className='about--text m-5 col-lg-6 col-sm-10'>
             <h4 className='my-md-6 warm-color'>Hello! I'm Anabel...</h4>
             <p className='my--md-6'>
