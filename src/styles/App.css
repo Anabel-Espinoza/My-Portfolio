@@ -219,4 +219,8 @@ button:hover {
     font-size: 14px;
   }
   
+  .contact--area {
+    min-width: 400px;
+  }
+
   }

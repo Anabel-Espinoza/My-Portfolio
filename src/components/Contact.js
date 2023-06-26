@@ -56,8 +56,8 @@ const Contact = () => {
 
   return (
     <div className='contact--area w-50 my-4 mx-auto d-flex border'>
-      <div className='contact--form w-100 p-3'>
-        <h5 className='my-md-1 p-md-3'><strong>Contact Me!</strong></h5>
+      <div className='contact--form w-100 p-lg-3 p-md-0'>
+        <h5 className='m-1 p-2'><strong>Contact Me!</strong></h5>
         <form className="form m-2 p-3">
           <label className='m-1'>Name: </label><br />
           <input

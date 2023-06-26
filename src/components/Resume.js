@@ -5,7 +5,7 @@ const Resume = () => {
         <div className='contact--area w-50 my-5 mx-auto d-flex border'>
             <div className='contact--form w-100 p-4'>
                 <h5><strong>Resume</strong></h5>
-                <p>Download my <a href="images/AnaEspinoza-Resume.pdf" target="_blank" className="light-blue">resume</a>.</p>
+                <p>Download my <a href="My-Portfolio/images/AnaEspinoza-Resume-GT.pdf" target="_blank" className="light-blue">resume</a>.</p>
                 <h6><strong>Front-End technologies</strong></h6>
                 <ul>
                     <li>HTML</li>
