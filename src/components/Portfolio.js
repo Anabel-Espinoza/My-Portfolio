@@ -19,6 +19,14 @@ const myProjects = [
         deployed: 'https://victoriamcn.github.io/NightOwl/'
     }, 
     {
+        name: 'MERN - Book Search',
+        description: 'Refactored a Google Books API search engine built with RESTful API into a MERN stack application with GraphQL and Apollo Server. Allows the user to create an account, sign in, search for books, add them to their profile, review previously saved books, and remove books from their list.',
+        image: 'images/MERN-Book-search.png',
+        technologies: 'MERN, GraphQL, Apollo Server',
+        repo: 'https://github.com/Anabel-Espinoza/Book-Search',
+        deployed: 'https://thawing-garden-33255-dc0e53e242e6.herokuapp.com/'
+    }, 
+    {
         name: 'TechBlog',
         description: 'My first full-stack application that offers developers a blog to share their thoughts or recommendations. The user can create and access their account and create, delete, or update their posts in their profile, and comment on other users posts.',
         image: 'images/tech-blog.png',
@@ -41,13 +49,13 @@ const myProjects = [
         repo: 'https://github.com/Anabel-Espinoza/My-Weather-Dashboard',
         deployed: 'https://anabel-espinoza.github.io/My-Weather-Dashboard/'
     }, 
-    {
-        name: 'Employee Tracker',
-        description: 'Content Management System. Command line application that allows the user manage departments, roles, and employees from a database. The user has a list of options to perform: view and add departments, roles, or employees. User can also update employee role, delete department, and learn the budget per department.',
-        image: 'images/employee-tracker.png',
-        technologies: 'JS, inquirer, MySQL2, dotenv',
-        repo: 'https://github.com/Anabel-Espinoza/Employee_Tracker',
-    }, 
+    // {
+    //     name: 'Employee Tracker',
+    //     description: 'Content Management System. Command line application that allows the user manage departments, roles, and employees from a database. The user has a list of options to perform: view and add departments, roles, or employees. User can also update employee role, delete department, and learn the budget per department.',
+    //     image: 'images/employee-tracker.png',
+    //     technologies: 'JS, inquirer, MySQL2, dotenv',
+    //     repo: 'https://github.com/Anabel-Espinoza/Employee_Tracker',
+    // }, 
 ]
 
 const Portfolio = () => {

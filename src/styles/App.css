@@ -149,6 +149,15 @@ li.hamburger-links {
   padding-right: 0;
 }
 
+.box-title {
+  padding: 1rem 0.2rem;
+  border: var(--white-color);
+  border-radius: 15px;
+  flex-direction: row;
+  width: 50%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
 /* Projects */
 .card {
   width: 25rem
@@ -221,6 +230,10 @@ button:hover {
   
   .contact--area {
     min-width: 400px;
+  }
+
+  .box-title {
+    width: 100%
   }
 
   }

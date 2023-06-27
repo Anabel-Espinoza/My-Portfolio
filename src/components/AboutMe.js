@@ -1,11 +1,25 @@
 import React from 'react';
+import { useTypewriter, Cursor } from "react-simple-typewriter"
 
 const AboutMe = () => {
+    
+    const { text: tagText } = useTypewriter({
+        words: ["Fullstack Developer", "ReactJS Developer", "MERN Stack"],
+        typeSpeed: 90,
+        loop: false,
+      });
+
     return (
     <div className= 'about d-flex flex-wrap justify-content-center'>
         <img src='images\IMG_8838.JPG' alt='AnaE' className='about--picture p-4 rounded-3 col-lg-5 col-sm-10'/>
         <div className='about--text m-5 col-lg-6 col-sm-10'>
-            <h4 className='my-md-6 warm-color'>Hello! I'm Anabel...</h4>
+            <div className='box-title my-1'>
+            <h4 className='my-md-6 warm-color'>Hello! I'm Anabel...</h4> 
+            <div className="">
+                <small class="light-blue">{tagText}</small>
+                <Cursor cursorStyle="|" />
+            </div>
+            </div>
             <p className='my--md-6'>
                 I'm a junior full-stack developer based in Cumming, GA. After 10 years working in the oilfield 
                 services and a gap to grow my family, I've decided to pursue a career as full stack developer 
