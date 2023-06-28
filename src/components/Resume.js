@@ -25,6 +25,7 @@ const Resume = () => {
                     <li>MySQL, Sequelize</li>
                     <li>MongoDB, Mongoose</li>
                     <li>REST</li>
+                    <li>MERN</li>
                 </ul>
             </div>
         </div>

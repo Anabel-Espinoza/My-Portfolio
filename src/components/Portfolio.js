@@ -5,7 +5,7 @@ const myProjects = [
     {
         name: 'HomeHub',
         description: 'Full-stack property management solution. Gives landlords the option to track their properties, assign tenants, receive maintenance requests, and communicate with their tenant in an easy way. The app allows tenants to check their rental details, submit maintenance tickets, and communicate with their landlords through the messaging system.',
-        image: 'images/HomeHub-Logo.png',
+        image: 'My-Portfolio/images/HomeHub-Logo.png',
         technologies: 'JS, express, sequelize, bycript, mysql2, express-handlebars, and Bulma',
         repo: 'https://github.com/Anabel-Espinoza/HomeHub',
         deployed: 'https://home-hub-management.herokuapp.com/'
@@ -13,7 +13,7 @@ const myProjects = [
     {
         name: 'NightOwl',
         description: 'An application that helps the user find the best events in their selected city and date, as well as dining recommendations close to the venue of the event the user has selected. The event search is done with the TicketMaster API, and the dining recommendations with the LocalBusiness API.',
-        image: 'images/night-owl-page-logo.png',
+        image: 'My-Portfolio/images/night-owl-page-logo.png',
         technologies: 'JS, Bootstrap',
         repo: 'https://github.com/victoriamcn/NightOwl',
         deployed: 'https://victoriamcn.github.io/NightOwl/'

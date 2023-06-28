@@ -1,4 +1,5 @@
 import React from 'react';
+import { AiFillEye, AiFillGithub } from "react-icons/ai";
 
 const Project = (props) => {
     console.log(props)
@@ -15,12 +16,10 @@ const Project = (props) => {
                             <h5 className='warm-color'>{project.name}</h5>
                         </div>
                         <p><small>{project.description}</small></p>
-                        <div className="d-flex justify-content-evenly">   
-                            <small><a href={project.repo} className='light-blue' target="_blank"><i class="fa-solid fa-link"></i>GitHub</a></small><br/>
-                            {project.deployed && (
-                                <small><a href={project.deployed} className='light-blue' target="_blank"><i class="fa-solid fa-link"></i>Deployed link</a></small>
-                            )}
-                        </div>
+                    </div>
+                    <div className="d-flex justify-content-evenly">   
+                        <h3><a href={project.repo} className='light-blue' target="_blank"><AiFillGithub /></a></h3><br/>
+                        <h3><a href={project.deployed} className='light-blue' target="_blank"><AiFillEye /></a></h3>
                     </div>
                 </div>
             </div>
