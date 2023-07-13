@@ -4,8 +4,8 @@ import Project from './Project'
 const myProjects = [
     {
         name: 'SportsConnect',
-        description: 'Full-stack sports club management solution. Built with Javascript, React, and GraphQL with a MongoDB backend, Google Maps API, and Stripe Library. Helps users to build community through sports. User can create and join clubs and events in their area of interest.',
-        image: 'My-Portfolio/images/SportsConnect.png',
+        description: 'Full-stack sports club management solution. Built with Javascript, React, and GraphQL with a MongoDB backend, Google Maps API, and Stripe Library. Helps users to build community through sports. User can create and join clubs and events in their area of interest or close to their location.',
+        image: 'images/SportsConnect.png',
         technologies: 'Node, express, React, MongoDB, mongoose, JWT, Stripe, bycript, Tailwind',
         repo: 'https://github.com/JaminHLO/jaan-event-manager',
         deployed: 'https://sports-connect-e11a3bbe276b.herokuapp.com/'
@@ -13,7 +13,7 @@ const myProjects = [
     {
         name: 'HomeHub',
         description: 'Full-stack property management solution. Gives landlords the option to track their properties, assign tenants, receive maintenance requests, and communicate with their tenant in an easy way. The app allows tenants to check their rental details, submit maintenance tickets, and communicate with their landlords through the messaging system.',
-        image: 'My-Portfolio/images/HomeHub-Logo.png',
+        image: 'images/HomeHub-Logo.png',
         technologies: 'JS, express, sequelize, bycript, mysql2, express-handlebars, and Bulma',
         repo: 'https://github.com/Anabel-Espinoza/HomeHub',
         deployed: 'https://home-hub-management.herokuapp.com/'
@@ -21,7 +21,7 @@ const myProjects = [
     {
         name: 'NightOwl',
         description: 'An application that helps the user find the best events in their selected city and date, as well as dining recommendations close to the venue of the event the user has selected. The event search is done with the TicketMaster API, and the dining recommendations with the LocalBusiness API.',
-        image: 'My-Portfolio/images/night-owl-page-logo.png',
+        image: 'images/night-owl-page-logo.png',
         technologies: 'JS, Bootstrap',
         repo: 'https://github.com/victoriamcn/NightOwl',
         deployed: 'https://victoriamcn.github.io/NightOwl/'
