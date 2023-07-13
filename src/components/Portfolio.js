@@ -3,6 +3,14 @@ import Project from './Project'
 
 const myProjects = [
     {
+        name: 'SportsConnect',
+        description: 'Full-stack sports club management solution. Built with Javascript, React, and GraphQL with a MongoDB backend, Google Maps API, and Stripe Library. Helps users to build community through sports. User can create and join clubs and events in their area of interest.',
+        image: 'My-Portfolio/images/SportsConnect.png',
+        technologies: 'Node, express, React, MongoDB, mongoose, JWT, Stripe, bycript, Tailwind',
+        repo: 'https://github.com/JaminHLO/jaan-event-manager',
+        deployed: 'https://sports-connect-e11a3bbe276b.herokuapp.com/'
+    }, 
+    {
         name: 'HomeHub',
         description: 'Full-stack property management solution. Gives landlords the option to track their properties, assign tenants, receive maintenance requests, and communicate with their tenant in an easy way. The app allows tenants to check their rental details, submit maintenance tickets, and communicate with their landlords through the messaging system.',
         image: 'My-Portfolio/images/HomeHub-Logo.png',
