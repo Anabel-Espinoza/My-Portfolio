@@ -48,7 +48,7 @@ const Resume = () => {
                 <li>Responsive desing</li>
                 <li>React</li>
                 <li>Bootstrap</li>
-                <li>Bulma</li>
+                <li>Tailwind</li>
             </ul>
         </motion.div>
 

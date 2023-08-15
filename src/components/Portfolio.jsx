@@ -6,7 +6,7 @@ const myProjects = [
   {
       name: 'SportsConnect',
       description: 'Full-stack sports club management solution. Built with JS, React, and GraphQL with a MongoDB backend, Google Maps API, and Stripe Library. Helps users to build community through sports.',
-      image: '../assets/SportsConnect.png',
+      image: 'assets/SportsConnect.png',
       technologies: 'Node, express, React, MongoDB, mongoose, JWT, Stripe, bycript, Tailwind',
       repo: 'https://github.com/JaminHLO/jaan-event-manager',
       deployed: 'https://sports-connect-e11a3bbe276b.herokuapp.com/'
@@ -14,7 +14,7 @@ const myProjects = [
   {
       name: 'HomeHub',
       description: 'Full-stack property management solution. Gives landlords and tenants the option to track their properties, manage maintenance requests, and communicate with each other.',
-      image: '../assets/HomeHub-Logo.png',
+      image: 'assets/HomeHub-Logo.png',
       technologies: 'JS, express, sequelize, bycript, mysql2, express-handlebars, and Bulma',
       repo: 'https://github.com/Anabel-Espinoza/HomeHub',
       deployed: 'https://home-hub-management.herokuapp.com/'
@@ -22,7 +22,7 @@ const myProjects = [
   {
       name: 'NightOwl',
       description: 'An application that helps the user find the best events in their selected city and date, as well as dining recommendations close to the venue of the event the user has selected.',
-      image: '../assets/night-owl-page-logo.png',
+      image: 'assets/night-owl-page-logo.png',
       technologies: 'JS, Bootstrap',
       repo: 'https://github.com/victoriamcn/NightOwl',
       deployed: 'https://victoriamcn.github.io/NightOwl/'
@@ -30,7 +30,7 @@ const myProjects = [
   {
       name: 'MERN - Book Search',
       description: 'Refactored a Google Books API search engine built with RESTful API into a MERN stack application with GraphQL and Apollo Server.',
-      image: '../assets/MERN-Book-search.png',
+      image: 'assets/MERN-Book-search.png',
       technologies: 'MERN, GraphQL, Apollo Server',
       repo: 'https://github.com/Anabel-Espinoza/Book-Search',
       deployed: 'https://thawing-garden-33255-dc0e53e242e6.herokuapp.com/'
@@ -38,7 +38,7 @@ const myProjects = [
   {
       name: 'TechBlog',
       description: "Full-stack application that offers developers a blog to share their thoughts or recommendations and comment on other's posts",
-      image: '../assets/tech-blog.png',
+      image: 'assets/tech-blog.png',
       technologies: 'JS, express, sequelize, bycript, mysql2, express-handlebars, and Boostrap',
       repo: 'https://github.com/Anabel-Espinoza/Tech-Blog',
       deployed: 'https://mytech-blog.herokuapp.com/'
@@ -46,14 +46,14 @@ const myProjects = [
   {
       name: 'Social-Media-BackEnd',
       description: 'API routes for a social media app. Uses a MongoDB database to create users, friends, thoughts, and reactions. Get, update, and delete routes are set are included.',
-      image: '../assets/social-media-be.png',
+      image: 'assets/social-media-be.png',
       technologies: 'JS, express, mongoose, MongoDB',
       repo: 'https://github.com/Anabel-Espinoza/Social-Media-BackEnd',
   }, 
   {
       name: 'My Weather Dashboard',
       description: 'Browser app that allows the user to enter a city and find the current weather and a 5-day forecast retrieved from the Open Weather API',
-      image: '../assets/weather-dashboard.png',
+      image: 'assets/weather-dashboard.png',
       technologies: 'JS, html, css, bootstrap',
       repo: 'https://github.com/Anabel-Espinoza/My-Weather-Dashboard',
       deployed: 'https://anabel-espinoza.github.io/My-Weather-Dashboard/'
@@ -61,7 +61,7 @@ const myProjects = [
   // {
   //     name: 'Employee Tracker',
   //     description: 'Content Management System. Command line application that allows the user manage departments, roles, and employees from a database. The user has a list of options to perform: view and add departments, roles, or employees. User can also update employee role, delete department, and learn the budget per department.',
-  //     image: 'images/employee-tracker.png',
+  //     image: 'assets/employee-tracker.png',
   //     technologies: 'JS, inquirer, MySQL2, dotenv',
   //     repo: 'https://github.com/Anabel-Espinoza/Employee_Tracker',
   // }, 
